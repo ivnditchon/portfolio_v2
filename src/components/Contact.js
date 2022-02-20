@@ -43,7 +43,7 @@ const Contact = () => {
                     <div className="mr-3">
                         {/** Phone icon */}
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                            <path d="M2 3a1 1 0 01git 1-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                         </svg>
                     </div>
                     <p className="text-sm">+63 906 7387 075</p>
@@ -59,17 +59,17 @@ const Contact = () => {
                     {/** Github */}
                     <a href={ socialMedia.github} className="mr-3">
                         {/** Github icon */}
-                        <img src={ socialMediaIcons.githubIcon } alt="Facebook" className="h-6 object-contain"/>
+                        <img src={ socialMediaIcons.githubIcon } alt="Github" className="h-6 object-contain"/>
                     </a>
                     {/** Linkedin */}
                     <a href={ socialMedia.linkedin } className="mr-3">
                         {/** Linkedin icon */}
-                        <img src={ socialMediaIcons.linkedInIcon } alt="Facebook" className="h-6 object-contain"/>
+                        <img src={ socialMediaIcons.linkedInIcon } alt="LinkedIn" className="h-6 object-contain"/>
                     </a>
                     {/** Twitter */}
                     <a href={ socialMedia.twitter } className="mr-3">
                         {/** Twitter icon */}
-                        <img src={ socialMediaIcons.twitterIcon } alt="Facebook" className="h-6 object-contain"/>
+                        <img src={ socialMediaIcons.twitterIcon } alt="Twitter" className="h-6 object-contain"/>
                     </a>
                      {/** Facebook */}
                     <a href={ socialMedia.facebook }>
