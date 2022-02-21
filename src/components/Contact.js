@@ -1,4 +1,3 @@
-import React from "react";
 import socialMediaIcons from "../social_media_icons/icons";
 
 const Contact = () => {
@@ -16,7 +15,7 @@ const Contact = () => {
                 <div className="w-1 h-full mr-1 bg-primary rounded-full"></div>
                 <h1 className="text-lg text-secondary font-semibold uppercase antialiased tracking-wide">contact</h1>
             </div>
-            <div className="w-full h-max mt-10 px-2">
+            <div className="w-full h-max mt-7 px-2">
                 {/** Email container */}
                 <div className="flex items-center">
                     <div className="mr-3">
@@ -43,7 +42,7 @@ const Contact = () => {
                     <div className="mr-3">
                         {/** Phone icon */}
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M2 3a1 1 0 01git 1-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                         </svg>
                     </div>
                     <p className="text-sm">+63 906 7387 075</p>
@@ -55,7 +54,7 @@ const Contact = () => {
                     <div className="w-1 h-full mr-1 bg-primary rounded-full"></div>
                     <h1 className="text-base text-secondary font-medium capitalize antialiased tracking-wide">social media</h1>
                 </div>
-                <div className="flex items-center mt-10 px-2">
+                <div className="flex items-center mt-7 px-2">
                     {/** Github */}
                     <a href={ socialMedia.github} className="mr-3">
                         {/** Github icon */}

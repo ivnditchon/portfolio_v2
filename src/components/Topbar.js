@@ -1,5 +1,3 @@
-import React from "react";
-
 const Topbar = () => {
     // Menu toggle
     const handleMenu = (e) => {

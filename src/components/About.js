@@ -11,7 +11,7 @@ const About = () => {
                         <div className="w-1 h-full mr-1 bg-primary rounded-full"></div>
                         <h1 className="text-lg text-secondary font-semibold uppercase antialiased tracking-wide">about</h1>
                     </div>
-                    <p className="px-2 mt-10 text-xs text-justify text-secondary antialiased">
+                    <p className="px-2 mt-7 text-xs text-justify text-secondary antialiased">
                         Hi, my name is Ivan Ditchon. As of now, I am still keep practing just to develop and enhance my skills on front end development and UX/UI design.
                         I've created some projects so that, I could apply all the knowledge that I have and could land a job as a front end developer. In my downtime, I enjoying reading
                         manga and about web API's.
@@ -26,7 +26,7 @@ const About = () => {
                         <div className="w-1 h-full mr-1 bg-primary rounded-full"></div>
                         <h1 className="text-base text-secondary font-medium capitalize antialiased tracking-wide">skills</h1>
                     </div>
-                    <div className="mt-10 px-2">
+                    <div className="mt-7 px-2">
                         {/** HTML */}
                         <div className="flex flex-col w-full h-full">
                             <div className="flex justify-between">
@@ -75,7 +75,7 @@ const About = () => {
                         <div className="w-1 h-full mr-1 bg-primary rounded-full"></div>
                         <h1 className="text-base text-secondary font-medium capitalize antialiased tracking-wide">experience</h1>
                     </div>
-                    <div className="flex justify-center items-center mx-2 mt-10 relative">
+                    <div className="flex justify-center items-center mx-2 mt-7 relative">
                         <div className="w-0.5 h-96 bg-gray-200"></div>
                         <div className="w-1/2 h-max absolute top-0 left-0 px-2 py-2 border-l border-t border-b border-gray-200 rounded-l-lg">
                             <h2 className="text-secondary antialiased">IT Staff</h2>
