@@ -1,13 +1,6 @@
-import socialMediaIcons from "../social_media_icons/icons";
+import socialMedia from "../images/social_media/social_media";
 
 const Contact = () => {
-    // Social media link/url
-    const socialMedia = {
-        facebook: 'https://www.facebook.com/ivnditchon',
-        twitter: 'https://twitter.com/ivnditchon',
-        linkedin: '',
-        github: '',
-    }
     // JSX templates
     return (  
         <div role="region" className="w-full h-max mt-20 relative bg-white">
@@ -56,24 +49,24 @@ const Contact = () => {
                 </div>
                 <div className="flex items-center mt-7 px-2">
                     {/** Github */}
-                    <a href={ socialMedia.github} className="mr-3">
+                    <a href={ socialMedia['links'].github } className="mr-3">
                         {/** Github icon */}
-                        <img src={ socialMediaIcons.githubIcon } alt="Github" className="h-6 object-contain"/>
+                        <img src={ socialMedia['icons'].github } alt="Github" className="h-6 object-contain"/>
                     </a>
                     {/** Linkedin */}
-                    <a href={ socialMedia.linkedin } className="mr-3">
+                    <a href={ socialMedia['links'].linkedin } className="mr-3">
                         {/** Linkedin icon */}
-                        <img src={ socialMediaIcons.linkedInIcon } alt="LinkedIn" className="h-6 object-contain"/>
+                        <img src={ socialMedia['icons'].linkedin } alt="LinkedIn" className="h-6 object-contain"/>
                     </a>
                     {/** Twitter */}
-                    <a href={ socialMedia.twitter } className="mr-3">
+                    <a href={ socialMedia['links'].twitter } className="mr-3">
                         {/** Twitter icon */}
-                        <img src={ socialMediaIcons.twitterIcon } alt="Twitter" className="h-6 object-contain"/>
+                        <img src={ socialMedia['icons'].twitter } alt="Twitter" className="h-6 object-contain"/>
                     </a>
                      {/** Facebook */}
-                    <a href={ socialMedia.facebook }>
+                    <a href={ socialMedia['links'].facebook }>
                          {/** Facebook icon */}
-                        <img src={ socialMediaIcons.facebookIcon } alt="Facebook" className="h-6 object-contain"/>
+                        <img src={ socialMedia['icons'].facebook } alt="Facebook" className="h-6 object-contain"/>
                     </a>
                 </div>
             </div>
