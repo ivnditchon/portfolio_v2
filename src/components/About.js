@@ -77,7 +77,7 @@ const About = () => {
                     </div>
                     <div className="flex justify-center items-center mx-2 mt-7 relative">
                         <div className="w-0.5 h-96 bg-gray-200"></div>
-                        <div className="w-1/2 h-max absolute top-0 left-0 px-2 py-2 border-l border-t border-b border-gray-200 rounded-l-lg">
+                        <div className="w-1/2 h-max absolute top-0 left-0 px-2 py-2 shadow-lg">
                             <h2 className="text-secondary antialiased">IT Staff</h2>
                             <p className="py-0.5 text-secondary text-xs overflow-auto whitespace-nowrap capitalize antialiased">precious cabana ynna beach resort</p>
                             <p className="py-0.5 text-secondary text-xs overflow-auto whitespace-nowrap antialiased"><i>Dec 12, 2018 - Dec 31, 2021</i></p>
@@ -87,7 +87,7 @@ const About = () => {
                                 <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
                             </span>
                         </div>
-                        <div className="w-1/2 h-max absolute top-1/2 transform -translate-y-1/2 right-0 px-2 py-2 border-r border-t border-b border-gray-200 rounded-r-lg">
+                        <div className="w-1/2 h-max absolute top-1/2 transform -translate-y-1/2 right-0 px-2 py-2 shadow-lg">
                             <h2 className="text-secondary capitalize antialiased">sales officer</h2>
                             <p className="py-0.5 text-secondary text-xs overflow-auto whitespace-nowrap capitalize antialiased">precious cabana ynna beach resort</p>
                             <p className="py-0.5 text-secondary text-xs overflow-auto whitespace-nowrap antialiased"><i>January 12, 2020 - Dec 31, 2021</i></p>
@@ -97,7 +97,7 @@ const About = () => {
                                 <span className="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
                             </span>
                         </div>
-                        <div className="w-1/2 h-max absolute bottom-0 left-0 px-2 py-2 border-l border-t border-b border-gray-200 rounded-l-lg">
+                        <div className="w-1/2 h-max absolute bottom-0 left-0 px-2 py-2 shadow-lg">
                             <h2 className="text-secondary capitalize antialiased">payroll clerk</h2>
                             <p className="py-0.5 text-secondary text-xs overflow-auto whitespace-nowrap capitalize antialiased">precious cabana ynna beach resort</p>
                             <p className="py-0.5 text-secondary text-xs overflow-auto whitespace-nowrap antialiased"><i>January, 2020 - Dec 31, 2021</i></p>

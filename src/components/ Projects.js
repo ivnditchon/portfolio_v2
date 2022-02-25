@@ -1,6 +1,8 @@
 const Projects = () => {
     return (
-        <div></div>
+        <div role="region" className="w-full h-max mt-20 relative bg-white">
+        
+        </div>  
     );
 }
  

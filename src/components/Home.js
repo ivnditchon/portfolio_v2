@@ -9,7 +9,7 @@ const Home = () => {
                 <h1 className="text-4xl text-gray-200 font-bold text-center tracking-wide">Hi, I am <strong className="text-primary">Ivan</strong></h1>
                 <p className="py-2 text-center text-xs text-gray-200">A self-taught front end developer who love's to code and create personal projects</p>
                 <div className="mt-3 flex justify-center">
-                    <button className="px-2 py-1.5 text-sm text-gray-200 font-semibold bg-primary outline-none antialiased tracking-wide rounded-sm">
+                    <button className="px-2 py-2 text-sm text-gray-200 font-semibold bg-primary outline-none antialiased tracking-wide rounded-sm">
                         Featured projects
                     </button>
                 </div>
