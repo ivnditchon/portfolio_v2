@@ -4,6 +4,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import sliderData from './components/slider/sliderData';
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Projects slides={sliderData}/>
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 }
