@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "../images/my_image.jpg"
 
 const About = () => {
