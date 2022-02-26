@@ -1,7 +1,7 @@
-import github from './github.svg'
-import linkedin from './linkedin.svg'
-import twitter from './twitter.svg'
-import facebook from './facebook.svg'
+import github from './github.svg';
+import linkedin from './linkedin.svg';
+import twitter from './twitter.svg';
+import facebook from './facebook.svg';
 
 const socialMedia = {
     icons: {

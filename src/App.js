@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className="w-full h-screen scroll-smooth overflow-scroll">
       <Home />
-      <div className="w-full h-max px-5 py-10">
+      <div className="w-full h-max px-5 py-10 md:px-6 md:landscape:px-10">
         <About />
         <Projects slides={sliderData}/>
         <Contact />

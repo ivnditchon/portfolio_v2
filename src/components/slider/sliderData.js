@@ -1,11 +1,6 @@
 import projectImageList from '../../images/project_images/ProjectImages';
 
 const sliderData = [{
-        image: projectImageList[0],
-        title: 'Todo list',
-        link: 'https://ivn-todolist.netlify.app'
-    },
-    {
         image: projectImageList[1],
         title: 'Ninjavan',
         link: 'https://ninjavan-clone.netlify.app'
@@ -19,6 +14,11 @@ const sliderData = [{
         image: projectImageList[3],
         title: 'Torres & Lauban Law',
         link: 'https://torresandlaubanlaw.netlify.app/'
+    },
+    {
+        image: projectImageList[0],
+        title: 'Todo list',
+        link: 'https://ivn-todolist.netlify.app'
     },
     {
         image: projectImageList[4],
