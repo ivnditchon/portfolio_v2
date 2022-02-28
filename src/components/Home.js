@@ -2,13 +2,13 @@ import Topbar from "./Topbar";
 
 const Home = () => {
     return (
-        <div role="region" className="w-full h-full flex justify-center items-center bg-banner-image bg-cover bg-center bg-no-repeat relative">
+        <div role="region" id="home" className="w-full h-full flex justify-center items-center bg-banner-image bg-cover bg-center bg-no-repeat relative">
             <Topbar />
             {/** Main text */}
             <div className="w-full h-max px-7 py-5 relative z-40">
-                <h1 className="text-4xl text-gray-200 font-bold text-center tracking-wide xs:text-5xl md:text-6xl">Hi, I am <strong className="text-primary">Ivan</strong></h1>
-                <p className="py-2 text-center text-xs text-gray-200 xs:text-sm md:text-base">A self-taught front end developer who love's to code and create personal projects</p>
-                <div className="mt-3 flex justify-center">
+                <h1 className="text-4xl text-gray-200 font-bold text-center tracking-wide xs:text-5xl md:text-6xl lg:text-7xl">Hi, I am <strong className="text-primary">Ivan</strong></h1>
+                <p className="py-2 text-center text-xs text-gray-200 xs:text-sm md:text-base lg:text-lg xl:text-xl xl:py-3">A self-taught front end developer who love's to code and create personal projects</p>
+                <div className="mt-3 flex justify-center lg:mt-12">
                     <button className="px-2 py-2 text-sm text-gray-200 font-semibold bg-primary outline-none antialiased tracking-wide rounded-sm xs:text-base xs:px-3 md:text-lg md:px-4">
                         Featured projects
                     </button>
