@@ -81,9 +81,9 @@ const About = () => {
                             <p className="py-0.5 text-secondary text-xs overflow-auto whitespace-nowrap capitalize antialiased xs:text-sm md:text-base">precious cabana ynna beach resort</p>
                             <p className="py-0.5 text-secondary text-xs overflow-auto whitespace-nowrap antialiased xs:text-sm md:text-base"><i>Dec. 12, 2018 - Dec 31, 2021</i></p>
                             {/** Mark */}
-                            <span className="flex h-3 w-3 absolute -right-1.5 -top-2 xs:h-4 xs:w-4 xs:-right-2 md:h-5 md:w-5 md:-right-2.5">
+                            <span className="flex h-3 w-3 absolute -right-1.5 -top-2 xs:h-4 xs:w-4 xs:-right-2">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                                <span className="relative inline-flex rounded-full h-3 w-3 bg-primary xs:h-4 xs:w-4 md:h-5 md:w-5"></span>
+                                <span className="relative inline-flex rounded-full h-3 w-3 bg-primary xs:h-4 xs:w-4"></span>
                             </span>
                         </div>
                         <div className="w-1/2 h-max absolute top-1/2 transform -translate-y-1/2 right-0 px-2 py-2 shadow-lg">
@@ -91,9 +91,9 @@ const About = () => {
                             <p className="py-0.5 text-secondary text-xs overflow-auto whitespace-nowrap capitalize antialiased xs:text-sm md:text-base">precious cabana ynna beach resort</p>
                             <p className="py-0.5 text-secondary text-xs overflow-auto whitespace-nowrap antialiased xs:text-sm md:text-base"><i>Jan. 12, 2020 - Dec 31, 2021</i></p>
                             {/** Mark */}
-                            <span className="flex h-3 w-3 absolute -top-2 -left-1.5 xs:h-4 xs:w-4 xs:-left-2 md:h-5 md:w-5 md:-left-2.5">
+                            <span className="flex h-3 w-3 absolute -top-2 -left-1.5 xs:h-4 xs:w-4 xs:-left-2">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                                <span className="relative inline-flex rounded-full h-3 w-3 bg-primary xs:h-4 xs:w-4 md:h-5 md:w-5"></span>
+                                <span className="relative inline-flex rounded-full h-3 w-3 bg-primary xs:h-4 xs:w-4"></span>
                             </span>
                         </div>
                         <div className="w-1/2 h-max absolute bottom-0 left-0 px-2 py-2 shadow-lg">
@@ -101,9 +101,9 @@ const About = () => {
                             <p className="py-0.5 text-secondary text-xs overflow-auto whitespace-nowrap capitalize antialiased xs:text-sm md:text-base">precious cabana ynna beach resort</p>
                             <p className="py-0.5 text-secondary text-xs overflow-auto whitespace-nowrap antialiased xs:text-sm md:text-base"><i>Jan. 12, 2020 - Dec 31, 2021</i></p>
                             {/** Mark */}
-                            <span className="flex h-3 w-3 absolute -right-1.5 -top-2 xs:h-4 xs:w-4 xs:-right-2 md:h-5 md:w-5 md:-right-2.5">
+                            <span className="flex h-3 w-3 absolute -right-1.5 -top-2 xs:h-4 xs:w-4 xs:-right-2">
                                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75"></span>
-                                <span className="relative inline-flex rounded-full h-3 w-3 bg-primary xs:h-4 xs:w-4 md:h-5 md:w-5"></span>
+                                <span className="relative inline-flex rounded-full h-3 w-3 bg-primary xs:h-4 xs:w-4"></span>
                             </span>
                         </div> 
                     </div>
