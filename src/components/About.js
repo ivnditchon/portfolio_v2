@@ -3,11 +3,11 @@ import Image from "../images/my_image.jpg"
 const About = () => {
     return (  
         <div role="region" className="w-full h-max relative bg-white md:mt-10">
-            <div className="w-full h-max flex flex-col items-center xl:flex-row xl:justify-between">
-                <div className="xl:flex xl:justify-center xl:flex-1 lg:max-w-3xl">
+            <div className="w-full h-max flex flex-col items-center xl:flex-row xl:justify-between xl:gap-x-36">
+                <div className="xl:flex-1 xl:flex xl:justify-center">
                     <img src={Image} alt="" className="h-28 object-contain rounded-full xs:h-32 md:h-36 xl:h-56" />
                 </div>
-                <div className="mt-10 xl:mt-0">
+                <div className="mt-10 xl:mt-0 xl:flex-1">
                     <div className="w-full h-7 flex justify-start items-end xs:h-8 md:h-9">
                         <div className="w-1 h-full mr-1 bg-primary rounded-full"></div>
                         <h1 className="text-lg text-secondary font-semibold uppercase antialiased tracking-wide xs:text-xl md:text-2xl">about</h1>
@@ -20,7 +20,7 @@ const About = () => {
                 </div>
             </div>
             {/** Skills & experience  container*/}
-            <div className="w-full h-max flex flex-col items-center mt-16 md:mt-20 xl:flex-row xl:justify-between xl:mt-44">
+            <div className="w-full h-max flex flex-col items-center mt-16 md:mt-20 xl:flex-row xl:justify-between xl:items-start xl:mt-44 xl:gap-x-36">
                 {/** Skills section */}
                 <div className="w-full h-max">
                     <div className="w-full h-7 flex justify-start items-end xs:h-8 md:h-9">

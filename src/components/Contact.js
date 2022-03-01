@@ -8,8 +8,8 @@ const Contact = () => {
                 <div className="w-1 h-full mr-1 bg-primary rounded-full"></div>
                 <h1 className="text-lg text-secondary font-semibold uppercase antialiased tracking-wide xs:text-xl md:text-2xl">contact</h1>
             </div>
-            <div className="mt-7 xl:flex xl:justify-between">
-                <div className="w-full h-max px-2 max-w-3xl">
+            <div className="mt-7 xl:flex xl:justify-between xl:gap-x-36">
+                <div className="w-full h-max px-2">
                     {/** Email container */}
                     <div className="flex items-center">
                         <div className="mr-3">
@@ -19,7 +19,7 @@ const Contact = () => {
                                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                             </svg>
                         </div>
-                        <p className="text-sm xs:text-base md:text-lg">ivnditchon@gmail.com</p>
+                        <p className="text-sm xs:text-base">ivnditchon@gmail.com</p>
                     </div>
                     {/** Address container */}
                     <div className="flex items-start my-3">
@@ -29,7 +29,7 @@ const Contact = () => {
                                 <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                             </svg>
                         </div>
-                        <p className="text-sm xs:text-base md:text-lg">#001, Rosary Height 2, Notre Dame University Compound, Cotabato City, 9600, Philippines</p>
+                        <p className="text-sm xs:text-base">#001, Rosary Height 2, Notre Dame University Compound, Cotabato City, 9600, Philippines</p>
                     </div>
                     {/** Phone container */}
                     <div className="flex items-center">
@@ -39,7 +39,7 @@ const Contact = () => {
                                 <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                             </svg>
                         </div>
-                        <p className="text-sm xs:text-base md:text-lg">+63 906 7387 075</p>
+                        <p className="text-sm xs:text-base">+63 906 7387 075</p>
                     </div>
                 </div>
                 {/** Social media */}
@@ -52,7 +52,7 @@ const Contact = () => {
                         {socialMedia.map((icons) => {
                                 return (
                                     <a href={icons.link} className="mr-3 xs:mr-4" key={icons.id}>
-                                        <img src={icons.src} alt={icons.alt} className="h-6 object-contain xs:h-7 md:h-8"/>
+                                        <img src={icons.src} alt={icons.alt} className="h-6 object-contain xs:h-7"/>
                                     </a>
                                 );
                             }
